@@ -3,6 +3,8 @@
 import pyglet
 from pyglet.window import key
 
+#new comment!
+
 class player():
 	def __init__(self, win_dimensions):
 		self.image = pyglet.image.SolidColorImagePattern((0, 255, 0, 255)).create_image(32, 32)
